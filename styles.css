@@ -76,12 +76,10 @@ p {
 
 
 
-/* Сховати оригінальні радіокнопки */
 input[type="radio"] {
     display: none;
 }
 
-/* Стилізація для лейблів */
 label {
     display: block;
     padding: 10px 20px;
@@ -93,14 +91,12 @@ label {
     min-height: 20px;
 }
 
-/* Зміна стилів при виборі радіокнопки */
 #radtist:checked ~ .container label[for="radtist"],
 #radtort:checked ~ .container label[for="radtort"],
 #radrul:checked ~ .container label[for="radrul"] {
     background-color: rgb(36, 29, 29);
 }
 
-/* Зміна стилів при наведенні */
 label:hover {
     background-color: rgb(23, 13, 13);
 }
